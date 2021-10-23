@@ -29,6 +29,11 @@ pipeline {
               sh 'echo 42'
           }
         }
+        stage('Testing artifacts through Browserstack') {
+          steps {
+              sh 'echo 42'
+          }
+        }
       }
     }
   }
